@@ -8,6 +8,11 @@ main {
         justify-content: center;
         align-items: center;
         width: 31.25rem;
+
+        @media (max-width: 500px) {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
     }
 
     .link {
@@ -24,6 +29,7 @@ main {
         text-align: center;
         margin: 4.5rem;
         font-size: 2rem;
+
     }
 
     
